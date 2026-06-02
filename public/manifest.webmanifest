@@ -1,0 +1,32 @@
+{
+  "name": "Lassana Food Machinery",
+  "short_name": "Lassana",
+  "description": "Premium commercial food equipment supplier in Accra, Ghana. Quality machines for restaurants, bakeries, and food businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "lang": "en-GH",
+  "orientation": "portrait-primary",
+  "categories": ["business", "shopping", "food"],
+  "icons": [
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
