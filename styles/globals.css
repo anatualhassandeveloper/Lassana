@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-blue: #0f172a;
+  --color-industrial-green: #16a34a;
+  --color-industrial-green-dark: #15803d;
+  --color-soft-white: #f8fafc;
+  --color-gray-accent: #64748b;
+  --color-slate-850: #1e293b;
+  --color-slate-900: #0f172a;
+  --font-heading: var(--font-sora);
+  --font-body: var(--font-inter);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-soft-white text-deep-blue antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply border border-white/10 bg-white/10 backdrop-blur-xl;
+  }
+
+  .glass-dark {
+    @apply border border-white/10 bg-deep-blue/80 backdrop-blur-xl;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-white to-industrial-green/80 bg-clip-text text-transparent;
+  }
+
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16a34a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #15803d;
+}
+
+.floating-input:focus ~ .floating-label,
+.floating-input:not(:placeholder-shown) ~ .floating-label {
+  @apply -translate-y-6 scale-90 text-industrial-green;
+}

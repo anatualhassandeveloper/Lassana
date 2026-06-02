@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="128" y1="128" x2="384" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="148" stroke="url(#accent)" stroke-width="18" stroke-dasharray="28 14" opacity="0.35"/>
+  <path d="M256 108c81.5 0 148 66.5 148 148s-66.5 148-148 148" stroke="url(#accent)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 148c59.4 0 108 48.6 108 108" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+  <path fill="url(#accent)" d="M196 168h56c44.2 0 80 35.8 80 80s-35.8 80-80 80h-24v64h-32V168zm32 32v96h24c26.5 0 48-21.5 48-48s-21.5-48-48-48h-24z"/>
+  <rect x="148" y="372" width="216" height="12" rx="6" fill="#16A34A" opacity="0.55"/>
+</svg>
