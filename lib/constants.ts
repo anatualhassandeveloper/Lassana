@@ -260,6 +260,13 @@ export const PRODUCTS = [
       "Commercial electric food dehydrator with 20 trays, 2 fans, 1500W, 70L capacity. Stainless steel 304, tray spacing 3cm, temperature 30–90°C. Size 405×460×700mm — ideal for fruits, vegetables, herbs, meats, and food processing.",
     image: "/products/electric-food-dehydrator-20-trays.png",
   },
+  {
+    id: "foodsense-bain-marie-3-pan",
+    title: "Foodsense Electric Bain Marie — 3 Pan",
+    description:
+      "Commercial Foodsense 3-pan electric bain marie with stainless steel construction, individual lids, and adjustable temperature control with power and heating indicators — ideal for buffets, cafeterias, catering, and food service.",
+    image: "/products/foodsense-bain-marie-3-pan.png",
+  },
 ] as const;
 
 export const FEATURES = [
