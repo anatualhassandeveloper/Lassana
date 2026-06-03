@@ -146,6 +146,13 @@ export function buildRootMetadata(): Metadata {
       shortcut: ["/favicon-512.png"],
     },
     manifest: "/manifest.webmanifest",
+    ...(process.env.GOOGLE_SITE_VERIFICATION
+      ? {
+          verification: {
+            google: process.env.GOOGLE_SITE_VERIFICATION,
+          },
+        }
+      : {}),
     other: {
       "geo.region": "GH-AA",
       "geo.placename": "Accra",
