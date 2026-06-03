@@ -3,7 +3,7 @@ import { COMPANY, PRODUCTS } from "@/lib/constants";
 
 /** Canonical site URL — override with NEXT_PUBLIC_SITE_URL when deploying. */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://lassanafoodmachinery.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://lassanamachinery.com";
 
 export const SEO = {
   siteName: COMPANY.name,
