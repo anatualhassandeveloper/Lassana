@@ -267,6 +267,20 @@ export const PRODUCTS = [
       "Commercial Foodsense 3-pan electric bain marie with stainless steel construction, individual lids, and adjustable temperature control with power and heating indicators — ideal for buffets, cafeterias, catering, and food service.",
     image: "/products/foodsense-bain-marie-3-pan.png",
   },
+  {
+    id: "electric-bain-marie-4-pot",
+    title: "Electric Bain Marie — 4 Pot",
+    description:
+      "Commercial 4-pot electric bain marie with stainless steel construction, individual lids, adjustable thermostat (30–110°C), power and heat indicators, and front drain tap — ideal for buffets, cafeterias, catering, and food service.",
+    image: "/products/electric-bain-marie-4-pot.png",
+  },
+  {
+    id: "commercial-juice-extractor",
+    title: "Commercial Juice Extractor",
+    description:
+      "Heavy-duty stainless steel centrifugal juice extractor with pulp discharge spout, secure top lid, and easy-clean design. High extraction efficiency — ideal for juice bars, cafés, restaurants, and health food businesses.",
+    image: "/products/commercial-juice-extractor.png",
+  },
 ] as const;
 
 export const FEATURES = [
