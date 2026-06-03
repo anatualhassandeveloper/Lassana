@@ -5,7 +5,7 @@ import { COMPANY, PRODUCTS } from "@/lib/constants";
 export function getSiteUrl(): string {
   const raw =
     process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
-    "https://lassanamachinery.com";
+    "https://www.lassanamachinery.com";
   return raw.replace(/\/+$/, "");
 }
 
