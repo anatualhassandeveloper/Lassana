@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import { COMPANY, PRODUCTS } from "@/lib/constants";
 
 /** Canonical site URL — override with NEXT_PUBLIC_SITE_URL when deploying. */
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://lassanamachinery.com";
+export function getSiteUrl(): string {
+  const raw =
+    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+    "https://lassanamachinery.com";
+  return raw.replace(/\/+$/, "");
+}
+
+export const SITE_URL = getSiteUrl();
 
 export const SEO = {
   siteName: COMPANY.name,

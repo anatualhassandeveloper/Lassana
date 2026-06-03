@@ -1,25 +1,17 @@
 import type { MetadataRoute } from "next";
-import { NAV_LINKS } from "@/lib/constants";
-import { SITE_URL } from "@/lib/seo";
+import { getSiteUrl } from "@/lib/seo";
 
-/** Public sitemap URL: `${SITE_URL}/sitemap.xml` */
+/** Served at /sitemap.xml — submit "sitemap.xml" in Google Search Console. */
 export default function sitemap(): MetadataRoute.Sitemap {
+  const siteUrl = getSiteUrl();
   const lastModified = new Date();
-
-  const sectionEntries: MetadataRoute.Sitemap = NAV_LINKS.map((link) => ({
-    url: `${SITE_URL}${link.href}`,
-    lastModified,
-    changeFrequency: link.href === "#products" ? "weekly" : "monthly",
-    priority: link.href === "#products" ? 0.9 : 0.7,
-  }));
 
   return [
     {
-      url: SITE_URL,
+      url: siteUrl,
       lastModified,
       changeFrequency: "weekly",
       priority: 1,
     },
-    ...sectionEntries,
   ];
 }
