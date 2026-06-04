@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Phone } from "lucide-react";
-import { COMPANY } from "@/lib/constants";
+import { COMPANY, STATS } from "@/lib/constants";
 import { getTelUrl } from "@/lib/utils";
 
 export default function Hero() {
@@ -141,9 +141,9 @@ export default function Hero() {
             className="mt-16 flex items-center gap-8 border-t border-white/10 pt-8"
           >
             {[
-              { value: "12+", label: "Years Experience" },
-              { value: "850+", label: "Machines Sold" },
-              { value: "98%", label: "Satisfaction" },
+              { value: `${STATS[0].value}${STATS[0].suffix}`, label: "Years Experience" },
+              { value: `${STATS[1].value}${STATS[1].suffix}`, label: "Machines Sold" },
+              { value: `${STATS[2].value}${STATS[2].suffix}`, label: "Satisfaction" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold text-white sm:text-3xl">

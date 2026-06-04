@@ -45,7 +45,10 @@ export default function About() {
               transition={{ delay: 0.4 }}
               className="absolute -bottom-6 -right-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-xl sm:-right-10"
             >
-              <div className="text-3xl font-bold text-industrial-green">12+</div>
+              <div className="text-3xl font-bold text-industrial-green">
+                {STATS[0].value}
+                {STATS[0].suffix}
+              </div>
               <div className="text-sm font-medium text-gray-accent">
                 Years of Excellence
               </div>
