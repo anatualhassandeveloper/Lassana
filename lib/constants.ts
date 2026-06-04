@@ -31,7 +31,7 @@ export const COMPANY = {
 
 export const STATS = [
   { label: "Years of Experience", value: 5, suffix: "+" },
-  { label: "Machines Sold", value: 270, suffix: "+" },
+  { label: "Machines Sold", value: 2000, suffix: "+" },
   { label: "Customer Satisfaction", value: 98, suffix: "%" },
 ] as const;
 
