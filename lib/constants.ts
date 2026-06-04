@@ -295,6 +295,13 @@ export const PRODUCTS = [
       "Professional stainless steel gas range with 6 burners, cast iron grates, and double oven compartments. Independent burner and oven controls — ideal for restaurants, hotels, catering kitchens, and commercial food service.",
     image: "/products/commercial-gas-range-6-burner.png",
   },
+  {
+    id: "commercial-gas-range-4-burner",
+    title: "Commercial Gas Range — 4 Burner with Oven",
+    description:
+      "Heavy-duty stainless steel gas range with 4 burners, cast iron grates, integrated oven, electric ignition, and heat-resistant control knobs — ideal for restaurants, cafeterias, catering, and commercial kitchens.",
+    image: "/products/commercial-gas-range-4-burner.png",
+  },
 ] as const;
 
 export const FEATURES = [
