@@ -316,6 +316,13 @@ export const PRODUCTS = [
       "Heavy-duty stainless steel double-burner gas stove with two high-pressure cast iron burners and six independent orange-valve controls for precise flame adjustment. Size 120×60×40 cm — ideal for restaurants, catering, and high-volume commercial cooking.",
     image: "/products/industrial-gas-stove-double-burner.png",
   },
+  {
+    id: "commercial-double-bowl-sink",
+    title: "Commercial Double Bowl Sink — Stainless Steel",
+    description:
+      "Freestanding stainless steel double-bowl sink with integrated backsplash, dual gooseneck faucets, deep basins, and sturdy tubular legs with adjustable feet — ideal for restaurants, food processing, catering, and commercial kitchens.",
+    image: "/products/commercial-double-bowl-sink.png",
+  },
 ] as const;
 
 export const FEATURES = [
