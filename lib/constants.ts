@@ -288,6 +288,13 @@ export const PRODUCTS = [
       "Heavy-duty stainless steel electric meat grinder with large top feeding tray, meat pusher, interchangeable grinding plates, and locking hand wheel. Powerful motor — ideal for butcheries, meat shops, restaurants, and food processing.",
     image: "/products/commercial-meat-grinder.png",
   },
+  {
+    id: "commercial-gas-range-6-burner",
+    title: "Commercial Gas Range — 6 Burner, Double Oven",
+    description:
+      "Professional stainless steel gas range with 6 burners, cast iron grates, and double oven compartments. Independent burner and oven controls — ideal for restaurants, hotels, catering kitchens, and commercial food service.",
+    image: "/products/commercial-gas-range-6-burner.png",
+  },
 ] as const;
 
 export const FEATURES = [
