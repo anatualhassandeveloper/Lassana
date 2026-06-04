@@ -281,6 +281,13 @@ export const PRODUCTS = [
       "Heavy-duty stainless steel centrifugal juice extractor with pulp discharge spout, secure top lid, and easy-clean design. High extraction efficiency — ideal for juice bars, cafés, restaurants, and health food businesses.",
     image: "/products/commercial-juice-extractor.png",
   },
+  {
+    id: "commercial-meat-grinder",
+    title: "Commercial Meat Grinder",
+    description:
+      "Heavy-duty stainless steel electric meat grinder with large top feeding tray, meat pusher, interchangeable grinding plates, and locking hand wheel. Powerful motor — ideal for butcheries, meat shops, restaurants, and food processing.",
+    image: "/products/commercial-meat-grinder.png",
+  },
 ] as const;
 
 export const FEATURES = [
