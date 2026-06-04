@@ -309,6 +309,13 @@ export const PRODUCTS = [
       "Heavy-duty stainless steel single-burner gas stove with high-pressure cast iron burner, triple-valve flame control, and sturdy legs. Size 60×60×40 cm — ideal for restaurants, catering, food processing, and high-heat commercial cooking.",
     image: "/products/industrial-gas-stove-single-burner.png",
   },
+  {
+    id: "industrial-gas-stove-double-burner",
+    title: "Industrial Gas Stove — Double Burner",
+    description:
+      "Heavy-duty stainless steel double-burner gas stove with two high-pressure cast iron burners and six independent orange-valve controls for precise flame adjustment. Size 120×60×40 cm — ideal for restaurants, catering, and high-volume commercial cooking.",
+    image: "/products/industrial-gas-stove-double-burner.png",
+  },
 ] as const;
 
 export const FEATURES = [
